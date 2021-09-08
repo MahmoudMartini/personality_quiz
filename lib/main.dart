@@ -71,7 +71,7 @@ class _MyAppState extends State<MyApp> {
       title: 'Personality quiz',
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Hello My App'),
+          title: Text('Test your personality'),
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
